@@ -1139,7 +1139,7 @@ body {
 
 .v {
     display: flex;
-    rotate: 180deg;
+    transform: rotate(180deg);
     left: 6px;
     position: relative;
 }
