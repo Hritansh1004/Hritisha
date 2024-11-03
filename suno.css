@@ -1,10 +1,25 @@
 body {
     display: flex;
     justify-content: center;
+    background-color: black;
 
+}
+.Whole-Box-parent{
+    top: 10vh;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    width: 1000px;
+    height: 500px;
+    background-color: pink;
+    align-self: center;
 }
 
 .Whole-Box {
+    /* top: 10vh; */
+    /* position: fixed; */
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
@@ -25,6 +40,16 @@ body {
     top: 20px;
 
 }
+@media (max-width:720px) { 
+
+    .Whole-Box-parent{
+        transform: scale(.35);
+
+    }
+    
+    
+   
+ }
 
 .H-First {
     width: 25px;
@@ -1258,7 +1283,7 @@ body {
     position: absolute;
     display: flex;
     flex-direction: row;
-    left: 550px;
+    left: 580px;
     bottom: -60px;
 }
 .heart-down-nib{
@@ -1315,5 +1340,36 @@ body {
     height: 60px;
     background-color: red
 }
+.excla-mark-first{
+    height: 60px;
+    width: 20px;
+    background-color: black;
+    position: relative;
+    left: 55px;
+}
+.dot-of-excla-mark-first{
 
+    width:25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: navy;
+    position: relative;
+    top: 110%;
+    right: 3px;
+}
+.excla-mark-second{
+    height: 70px;
+    width: 20px;
+    background-color: black;
+    position: relative;
+    left: 70px;
+}
+.dot-of-excla-mark-second{
 
+    width:20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: darkgreen;
+    position: relative;
+    top: 110%;
+}
