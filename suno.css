@@ -29,7 +29,6 @@ body {
     background-color: pink;
     align-self: center;
 }
-
 .Hritisha-Box {
     position: relative;
     left: 20px;
@@ -40,15 +39,10 @@ body {
     top: 20px;
 
 }
-@media (max-width:720px) { 
-
+@media (max-width:900px) { 
     .Whole-Box-parent{
-        transform: scale(.35);
-
+        transform: scale(.32);
     }
-    
-    
-   
  }
 
 .H-First {
