@@ -1278,7 +1278,20 @@ body {
     height: 1px;
     width: 1px;
 }
+.HEART:hover .heart-down-nib{
+    border-top: 200px solid RED;
+}
 
+.HEART:hover .circle-first-heart{
+    background-color: RED;
+}
+.HEART:hover .horizontal-red-stick-gap-dhakne-ke-liye{
+    background-color: RED;
+}
+.HEART:hover .circle-second-heart{
+    background-color: RED;
+
+}
 .heart{
     position: absolute;
     display: flex;
@@ -1293,11 +1306,13 @@ body {
     /* background-color: red; */
     border-left: 170px solid pink;
     border-right: 170px solid pink;
-    border-top: 200px solid red;
+    border-top: 200px solid #df615d;
     /* clip-path: polygon(50% 100%,0  0,100% 0 ); */
     z-index: 1;
     border-top-left-radius: 20%;
     border-top-right-radius: 20%;
+    transition: all;
+    transition-delay: 80MS;
 
     
 
@@ -1309,13 +1324,14 @@ body {
     left: 0px;
     height: 170px;
     width: 170px;
-    background-color: red;
+    background-color: #df615d;
     border-top-right-radius: 50%;
     border-bottom-right-radius: 50%;
     border-top-left-radius: 50%;
     border-bottom-left-radius: 50%;
     z-index: 1;
-    
+    transition: all;
+    transition-delay: 80MS;
 
 }
 
@@ -1325,12 +1341,14 @@ body {
     left: 170px;
     height: 170px;
     width: 170px;
-    background-color: red;
+    background-color: #df615d;
     border-top-right-radius: 50%;
     border-bottom-right-radius: 50%;
     border-top-left-radius: 50%;
     border-bottom-left-radius: 50%;
     z-index: 1;
+    transition: all;
+    transition-delay: 80MS;
 }
 .horizontal-red-stick-gap-dhakne-ke-liye{
     position: absolute;
@@ -1338,7 +1356,9 @@ body {
     left: -50px;
     width: 170px;
     height: 60px;
-    background-color: red
+    background-color: #df615d;
+    transition: all;
+    transition-delay: 80MS;
 }
 .excla-mark-first{
     height: 60px;
