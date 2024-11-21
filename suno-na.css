@@ -666,5 +666,9 @@ body {
     left: 100px;
     width: 800px;
     height: 40px;
-    background-color: #c43138;
+    background-color: #880d1e;
+}
+
+.Btn:hover {
+    background-color: #df615d;
 }
