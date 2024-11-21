@@ -1,0 +1,670 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+
+}
+.Whole-Box-parent{
+    top: 10vh;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    width: 1000px;
+    height: 500px;
+    background-color: pink;
+    align-self: center;
+}
+
+.Whole-Box {
+    /* top: 10vh; */
+    /* position: fixed; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    width: 1000px;
+    height: 500px;
+    background-color: pink;
+    align-self: center;
+    position: fixed;
+    top: 150px;
+}
+
+.I-Box {
+    position: relative;
+    left: 20px;
+    height: 100px;
+    width: 1000px;
+    display: flex;
+    align-self: start;
+    top: 20px;
+
+}
+@media (max-width:900px) { 
+
+    .Whole-Box-parent{
+        transform: scale(.33);
+        top: -40%;
+    }
+    .Whole-Box {
+        top: 50px;
+    }
+ }
+ .I-Up {
+    position: relative;
+    width: 25px;
+    height: 80px;
+    background-color: darkgreen;
+    left: 70px;
+}
+
+.I-Center {
+    position: relative;
+
+    width: 60px;
+    height: 20px;
+    background-color: darkgreen;
+    left: -17px;
+
+}
+
+.I-Down {
+    position: absolute;
+    width: 60px;
+    height: 20px;
+    background-color: darkgreen;
+    left: -17px;
+    bottom: 0px;
+}
+.Love-You-box {
+    position: relative;
+    top: -80px;
+    height: 100px;
+    width: 1000px;
+    display: flex;
+    align-self: start;
+    left: 200px;
+
+}
+
+.L{
+    height: 80px;
+    width: 25px;
+    background-color: darkorchid;
+
+}
+.L-Leg{
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    background-color: darkorchid;
+    /* left: -17px; */
+    bottom: 20px;
+}
+.o {
+    position: relative;
+    left: 32px;
+    top: -1px;
+    height: 33px;
+    width: 33px;
+    border-top: 25px solid darkorchid;
+    border-right: 15px solid darkorchid;
+    border-bottom: 25px solid darkorchid;
+    border-left: 15px solid darkorchid;
+    
+    border-radius: 50%;
+}
+.V-Papa{
+    transform: scale(1.2);
+    position: relative;
+    left: 45px;
+    top: 12px;
+
+}
+.v {
+    display: flex;
+    transform: rotate(180deg);
+    left: 6px;
+    position: relative;
+}
+   
+    .v-First {
+        top: 1.15px;
+        width: 20px;
+        height: 65px;
+        background-color: darkorchid;
+        position: relative;
+        left: 6.5px;
+        transform: rotate(25deg);
+    }
+    
+    .v-Last {
+        top: 1px;
+    
+        width: 20px;
+        height: 65px;
+        background-color: darkorchid;
+        position: relative;
+        left: 20px;
+        transform: rotate(-25deg);
+    }
+    
+    .v-Head {
+        position: relative;
+        width: 24px;
+        height: 20px;
+        background-color: darkorchid;
+        /* transform: rotate(25deg); */
+        right: 18.6px;
+        /* bottom: px; */
+        clip-path: polygon(100% 0, 0 0, 0 100%);
+    
+    }
+    
+    .v-Triangle-First {
+        position: relative;
+        top: 100%;
+        width: 20px;
+        height: 20px;
+        background-color: darkorchid;
+        clip-path: polygon(100% 0, 0 0, 0 44%);
+        /* transform: rotate(25deg); */
+    }
+    
+    .v-Triangle-Last {
+        position: relative;
+        top: 100%;
+        width: 20px;
+        height: 20px;
+        background-color: darkorchid;
+        clip-path: polygon(0 0, 44% 0, 0 100%);
+        transform: rotate(90deg);
+    }
+.second-e{
+    height: 80px;
+    width: 25px;
+    background-color:darkorchid;
+    position: relative;
+    left: 80px;
+
+
+}
+.second-e-khidki{
+    position: absolute;
+    width: 55px;
+    height: 15px;
+    background-color: darkorchid;
+    /* left: -17px; */
+    bottom: 32px;
+}
+.second-e-thoda-sa-bas{
+    position: absolute;
+    width: 60px;
+    height: 25px;
+    background-color: darkorchid;
+    /* left: -17px; */
+    bottom: 0px;
+}
+.second-e-khidki-niche-wala-dhakanaa-hai{
+    position: absolute;
+    width: 60px;
+    height:25px;
+    background-color: darkorchid;
+    /* left: -17px; */
+    top: 0px;
+} 
+.You-Little-box{
+    position: relative;
+    height: 100px;
+    width: 1000px;
+    
+    display: flex;
+    align-self: start;
+    left: 20px;
+
+}
+.Y-Box{
+    position: relative;
+    
+    top: 25px;
+}
+.Y{
+    width: 25px;
+    height: 55px;
+    background-color: navy;
+    transform: translatex(190px);
+    /* z-index: 2; */
+}
+.Y-First{
+    width: 25px;
+    height: 70px;
+    background-color: navy;
+    transform: rotate(45deg);
+    position: absolute;
+    top: -45px;
+    left: 20px;
+    /* z-index: -2; */
+}
+.Y-Second{
+    width: 25px;
+    height:70px;
+    background-color: navy;
+    transform: rotate(-45deg);
+    position: absolute;
+    top: -45px;
+    left: -20px;
+    /* z-index: -1; */
+}
+.Y-Hide-Karne-Ke-Liye{
+    position: absolute;
+    bottom: 80px;
+    right: -40px;
+    width:140px;
+    height: 30px;
+    background-color: pink;
+}
+.o-second{
+    position: relative;
+    left: 222px;
+    top: -1px;
+    height: 33px;
+    width: 33px;
+    border-top: 25px solid navy;
+    border-right: 15px solid navy;
+    border-bottom: 25px solid navy;
+    border-left: 15px solid navy;
+    
+    border-radius: 50%;
+}
+
+.u{
+    position: relative;
+    height: 57px;
+    width: 20px;
+    border: 25px solid navy;
+    left: 232px;
+    top:-25px;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+}
+.u-Hide-Karne-Ke-Liye{
+    position: absolute;
+    bottom: 56px;
+    right: -40px;
+    width:140px;
+    height: 30px;
+    background-color: pink;
+}
+
+.MANISHA-BOX{
+    display: flex;
+    position: relative;
+    top: -30px;
+    left: 250px;
+    transform: scale(1.45);
+}
+.M{
+    /* width: 70px; */
+    display: flex;
+    
+}
+.M-first-dandi{
+    height: 80px;
+    width: 25px;
+    background-color: #e51010;
+
+}
+.M-second-dandi{
+    height: 80px;
+    width: 25px;
+    background-color: #e51010;
+    position: relative;
+    left: 45px;
+}
+.M-Bich-Dandi{
+    position: absolute;
+    top: 35px;
+    left: 35px;
+}
+.M-First{
+    width: 25px;
+    height: 60px;
+    background-color: #e51010;
+    transform: rotate(50deg);
+    position: absolute;
+    top: -46px;
+    left: 16px;
+    /* z-index: -2; */
+}
+.M-Second{
+    width: 25px;
+    height:60px;
+    background-color: #e51010;
+    transform: rotate(-50deg);
+    position: absolute;
+    top: -45px;
+    left: -15px;
+    /* z-index: -1; */
+}
+.M-Hide-Karne-Ke-Liye{
+    position: absolute;
+    bottom: 35px;
+    left: -30px;
+    width:140px;
+    height: 10px;
+    background-color: pink;
+}
+.A{
+    display: flex;
+    position: relative;
+    right: 30px;
+    /* transform: translatex(-70px); */
+}
+.A-First {
+    width: 20px;
+    height: 80px;
+    background-color: #ff6600;
+    position: relative;
+    left: 107px;
+    transform: rotate(25deg);
+}
+
+.A-Last {
+    width: 20px;
+    height: 80px;
+    background-color: #ff6600;
+    position: relative;
+    left: 125px;
+    transform: rotate(-25deg);
+}
+
+.A-Head {
+    position: relative;
+    width: 22px;
+    height: 20px;
+    background-color: #ff6600;
+    /* transform: rotate(25deg); */
+    right: -85px;
+    bottom: 1px;
+}
+
+.A-Triangle-First {
+    position: relative;
+    top: 100%;
+    width: 20px;
+    height: 20px;
+    background-color: #ff6600;
+    clip-path: polygon(100% 0, 0 0, 0 44%);
+    /* transform: rotate(25deg); */
+}
+
+.A-Triangle-Last {
+    position: relative;
+    top: 100%;
+    width: 20px;
+    height: 20px;
+    background-color: #ff6600;
+    clip-path: polygon(0 0, 44% 0, 0 100%);
+    transform: rotate(90deg);
+}
+
+.A-Center {
+    position: relative;
+    top: 42px;
+    left: 55px;
+    width: 38px;
+    height: 20px;
+    background-color: #ff6600;
+}
+.N{
+    display: flex;
+    left: 65px;
+    position: relative;
+}
+
+.N-First-Dandi{
+    width: 25px;
+    height: 80px;
+    background-color: #fc4589;
+
+}
+
+.N-BIch-ki-tedhi-Dandi{
+    height: 110px;
+    width:25px;
+    background-color: #fc4589;
+    transform: rotate(-30deg);
+    bottom: 20px;
+    left: 5px;
+    position: relative;
+}
+.N-Second-Dandi{
+    width: 25px;
+    height: 80px;
+    background-color: #fc4589;
+    left: 15px;
+    position: relative;
+}
+.N-Hide-Karne-Ke-Liye{
+    position: relative;
+    bottom: 20px;
+    left: -30px;
+    width:140px;
+    height: 20px;
+    background-color: pink;
+    z-index: 1;
+}
+.N-Hide-Karne-Ke-Liye-Dusra{
+    position: absolute;
+    top: 100%;
+    left: -30px;
+    width:140px;
+    height: 10px;
+    background-color: pink;
+    z-index: 1;
+}
+.Second-I-Up {
+    position: relative;
+    left: 113px;
+    background-color:#fffc5d !important ;
+
+}
+
+.Second-I-Center {
+    background-color: #fffc5d !important;
+}
+
+.Second-I-Down {
+    background-color: #fffc5d !important;
+}
+.S{
+    display: flex;
+    position: relative;
+    left: 13px;
+}
+.S-Up {
+    position: relative;
+    width: 60px;
+    height: 40px;
+    background-color: #4adeaf;
+    left: 135px;
+    border-top-left-radius: 50%;
+
+}
+
+.S-Up-Circle-White {
+    position: relative;
+    width: 60px;
+    height: 10px;
+    top: 25px;
+    left: 20px;
+    background-color: pink;
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
+}
+
+.S-Down {
+    position: relative;
+    width: 60px;
+    height: 40px;
+    background-color:  #4adeaf;
+    left: 75px;
+    border-bottom-right-radius: 50%;
+    top: 40px;
+}
+
+.S-Down-Circle-White {
+    position: relative;
+    width: 60px;
+    height: 10px;
+    top: 5px;
+    right: 20px;
+    background-color: pink;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+
+}
+
+.S-Up-Corner {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    background-color:  #4adeaf;
+    top: 25px;
+    z-index: 2;
+}
+
+.S-Up-Corner-trans {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: pink;
+    top: 35px;
+    left: -10px;
+    z-index: 1;
+}
+
+
+.S-down-Corner {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    background-color:  #4adeaf;
+    top: -5px;
+    right: 0px;
+    z-index: 2;
+}
+
+.S-down-Corner-trans {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: pink;
+    top: -15px;
+    right: -10px;
+    z-index: 1;
+}
+.H{
+    display: flex;
+    position: relative;
+    left: 105px;
+}
+.H-First {
+    width: 25px;
+    height: 80px;
+    background-color: #00b2ff;
+}
+
+.H-Half {
+    height: 25px;
+    width: 30px;
+    top: 30px;
+
+    position: relative;
+    left: 0px;
+    background-color: #00b2ff;
+}
+
+.H-Last {
+    width: 25px;
+    height: 80px;
+    background-color: #00b2ff;
+    margin-right: 10px;
+}
+
+.A-Niche-wala{
+    display: flex;
+    position: relative;
+    left: 20px;
+}
+
+.A-First-Second {
+    width: 20px;
+    height: 80px;
+    background-color: #420e87;
+    position: relative;
+    left: 107px;
+    transform: rotate(25deg);
+}
+
+.A-Last-Second {
+    width: 20px;
+    height: 80px;
+    background-color: #420e87;
+    position: relative;
+    left: 125px;
+    transform: rotate(-25deg);
+}
+
+.A-Head-Second {
+    position: relative;
+    width: 22px;
+    height: 20px;
+    background-color: #420e87;
+    /* transform: rotate(25deg); */
+    right: -85px;
+    bottom: 1px;
+}
+
+.A-Triangle-First-Second {
+    position: relative;
+    top: 100%;
+    width: 20px;
+    height: 20px;
+    background-color: #420e87;
+    clip-path: polygon(100% 0, 0 0, 0 44%);
+    /* transform: rotate(25deg); */
+}
+
+.A-Triangle-Last-Second {
+    position: relative;
+    top: 100%;
+    width: 20px;
+    height: 20px;
+    background-color: #420e87;
+    clip-path: polygon(0 0, 44% 0, 0 100%);
+    transform: rotate(90deg);
+}
+
+.A-Center-Second {
+    position: relative;
+    top: 42px;
+    left: 55px;
+    width: 38px;
+    height: 20px;
+    background-color: #420e87;
+}
+.Btn{
+    top: 30px;
+    position: relative;
+    left: 100px;
+    width: 800px;
+    height: 40px;
+    background-color: #c43138;
+}
